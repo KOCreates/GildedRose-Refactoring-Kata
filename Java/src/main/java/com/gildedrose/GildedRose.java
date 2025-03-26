@@ -41,6 +41,7 @@ class GildedRose {
             }
 
             if (items[i].sellIn < 0) {
+            	//ick
                 if (!items[i].name.equals("Aged Brie")) {
                     if (!items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
                         if (items[i].quality > 0) {
